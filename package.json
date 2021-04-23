@@ -18,7 +18,7 @@
     "prebuild": "yarn run test",
     "build": "microbundle",
     "build:example": "parcel build example/src/index.html --out-dir example/build --public-url ./",
-    "publish": "git push --tags && npm publish"
+    "prepublish": "git push --tags"
   },
   "repository": "https://github.com/r0manr0k0n/lib-unifonts.git",
   "author": {
