@@ -1,6 +1,6 @@
 {
   "name": "lib-unifonts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript package that turn alphanumeric characters into weird font style.",
   "keywords": [
     "weird fonts, unifonts, universal, unicode, unique, styled, characters, instafonts, fancy fonts"
@@ -23,7 +23,7 @@
     "prebuild": "yarn run test",
     "build": "microbundle",
     "build:example": "parcel build example/src/index.html --out-dir example/build --public-url ./",
-    "prepublish": "git push --tags"
+    "postversion": "git push --tags"
   },
   "repository": "https://github.com/r0manr0k0n/lib-unifonts.git",
   "author": {
