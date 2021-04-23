@@ -2,7 +2,7 @@
 
 𝑨 𝑱𝒂𝒗𝒂𝑺𝒄𝒓𝒊𝒑𝒕 𝒑𝒂𝒄𝒌𝒂𝒈𝒆 𝒕𝒉𝒂𝒕 𝒕𝒖𝒓𝒏 𝒂𝒍𝒑𝒉𝒂𝒏𝒖𝒎𝒆𝒓𝒊𝒄 𝒄𝒉𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒔 𝒊𝒏𝒕𝒐 𝒖𝒏𝒊𝒗𝒆𝒓𝒔𝒂𝒍 𝒘𝒆𝒊𝒓𝒅 𝒇𝒐𝒏𝒕 𝒔𝒕𝒚𝒍𝒆.
 
-## This is the core library for [uniFonts](https://pwa.unifonts.vercel.app).
+## This is the core library for [uniFonts](https://unifonts-pwa.vercel.app).
 
 <div align="center">
 <img src="./example/unifonts_iphone_x.png" alt="unifonts screenshot iphone x" width='300'>
