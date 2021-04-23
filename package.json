@@ -10,6 +10,10 @@
   "umd:main": "build/index.umd.js",
   "module": "build/index.mjs",
   "types": "build/src/index.d.ts",
+  "files": [
+    "build/index.js",
+    "build/src/index.d.ts"
+  ],
   "scripts": {
     "addNewFont": "node ./script/addNewFont",
     "example": "parcel example/src/index.html --out-dir example/build",
