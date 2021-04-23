@@ -62,7 +62,8 @@ typings/
 
 .rts*
 output.ts
-exampleDist
+build
+example/build
 .cache
-dist
 .DS_Store
+*.code-workspace

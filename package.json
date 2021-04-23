@@ -1,23 +1,31 @@
 {
-  "name": "weird-fonts",
-  "version": "0.1.2",
+  "name": "lib-unifonts",
+  "version": "1.0.0",
   "description": "A JavaScript package that turn alphanumeric characters into weird font style.",
-  "main": "dist/index.js",
+  "keywords": [
+    "weird fonts, unifonts, universal, unicode, unique, styled, characters, instafonts, fancy fonts"
+  ],
   "source": "src/index.ts",
-  "umd:main": "dist/index.umd.js",
-  "module": "dist/index.mjs",
-  "types": "dist/src/index.d.ts",
+  "main": "build/index.js",
+  "umd:main": "build/index.umd.js",
+  "module": "build/index.mjs",
+  "types": "build/src/index.d.ts",
   "scripts": {
-    "example": "parcel example/index.html --out-dir exampleDist --open",
-    "test": "jest --coverage --verbose ./__tests__",
-    "readme": "ts-node ./script/generateReademe.ts",
+    "addNewFont": "node ./script/addNewFont",
+    "example": "parcel example/src/index.html --out-dir example/build",
+    "test": "jest --coverage --verbose ./tests",
+    "dev": "microbundle watch",
+    "prebuild": "yarn run test",
     "build": "microbundle",
-    "build:example": "parcel build example/index.html --out-dir exampleDist --public-url ./",
-    "deploy": "rm -rf ./exampleDist && yarn build:example && node ./script/deploy.js",
-    "dev": "microbundle watch"
+    "build:example": "parcel build example/src/index.html --out-dir example/build --public-url ./",
+    "publish": "git push --tags && npm publish"
   },
-  "repository": "https://github.com/beizhedenglong/weird-fonts.git",
-  "author": "Victor Wang <wang_shaojie@icloud.com>",
+  "repository": "https://github.com/r0manr0k0n/lib-unifonts.git",
+  "author": {
+    "name": "Roman Rokon",
+    "email": "rokon.rxr@gmail.com",
+    "url": "https://github.com/r0manr0k0n"
+  },
   "license": "MIT",
   "private": false,
   "devDependencies": {
@@ -25,14 +33,21 @@
     "@types/node": "^12.0.2",
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
-    "gh-pages": "^2.0.1",
     "jest": "^24.8.0",
-    "microbundle": "^0.11.0",
+    "microbundle": "0.12.x",
     "parcel-bundler": "^1.12.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "endOfLine": "crlf"
   }
 }
