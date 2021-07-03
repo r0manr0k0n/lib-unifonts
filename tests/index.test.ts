@@ -57,6 +57,28 @@ import {
   star_between,
   wavy,
   zigzag,
+  squiggle,
+  squiggle_2,
+  squiggle_3,
+  squiggle_4,
+  squiggle_5,
+  squiggle_6,
+  squiggle_7,
+  squiggle_8,
+  squiggle_9,
+  squiggle_10,
+  squiggle_11,
+  squiggle_12,
+  squiggle_13,
+  squiggle_14,
+  squiggle_15,
+  squiggle_symbol,
+  squiggle_symbol_2,
+  squiggle_symbol_3,
+  squiggle_symbol_4,
+  squiggle_symbol_5,
+  squiggle_symbol_6,
+  symbolic,
 } from '../src';
 
 const unTouchStr = '我爱你';
@@ -410,5 +432,137 @@ test('thick_block', () => {
 test('curly_brace', () => {
   expect(curly_brace(origin)).toEqual(
     '⧼A̼⧽⧼B̼⧽⧼C̼⧽⧼D̼⧽⧼E̼⧽⧼F̼⧽⧼G̼⧽⧼H̼⧽⧼I̼⧽⧼J̼⧽⧼K̼⧽⧼L̼⧽⧼M̼⧽⧼N̼⧽⧼O̼⧽⧼P̼⧽⧼Q̼⧽⧼R̼⧽⧼S̼⧽⧼T̼⧽⧼U̼⧽⧼V̼⧽⧼W̼⧽⧼X̼⧽⧼Y̼⧽⧼Z̼⧽⧼a̼⧽⧼b̼⧽⧼c̼⧽⧼d̼⧽⧼e̼⧽⧼f̼⧽⧼g̼⧽⧼h̼⧽⧼i̼⧽⧼j̼⧽⧼k̼⧽⧼l̼⧽⧼m̼⧽⧼n̼⧽⧼o̼⧽⧼p̼⧽⧼q̼⧽⧼r̼⧽⧼s̼⧽⧼t̼⧽⧼u̼⧽⧼v̼⧽⧼w̼⧽⧼x̼⧽⧼y̼⧽⧼z̼⧽⧼0̼⧽⧼1̼⧽⧼2̼⧽⧼3̼⧽⧼4̼⧽⧼5̼⧽⧼6̼⧽⧼7̼⧽⧼8̼⧽⧼9̼⧽我爱你'
+  );
+});
+
+test('squiggle', () => {
+  expect(squiggle(origin)).toEqual(
+    'ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬאץչค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬאץչ0123456789我爱你'
+  );
+});
+
+test('squiggle_2', () => {
+  expect(squiggle_2(origin)).toEqual(
+    'ǟɮƈɖɛʄɢɦɨʝӄʟʍռօքզʀֆȶʊʋաӼʏʐǟɮƈɖɛʄɢɦɨʝӄʟʍռօքզʀֆȶʊʋաӼʏʐ0123456789我爱你'
+  );
+});
+
+test('squiggle_3', () => {
+  expect(squiggle_3(origin)).toEqual(
+    'ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ0123456789我爱你'
+  );
+});
+
+test('squiggle_4', () => {
+  expect(squiggle_4(origin)).toEqual(
+    'ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ0123456789我爱你'
+  );
+});
+
+test('squiggle_5', () => {
+  expect(squiggle_5(origin)).toEqual(
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZαზƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ0123456789我爱你'
+  );
+});
+
+test('squiggle_6', () => {
+  expect(squiggle_6(origin)).toEqual(
+    'ΛϦㄈÐƐFƓнɪﾌҚŁ௱ЛØþҨ尺らŤЦƔƜχϤẔΛϦㄈÐƐFƓнɪﾌҚŁ௱ЛØþҨ尺らŤЦƔƜχϤẔ0123456789我爱你'
+  );
+});
+
+test('squiggle_7', () => {
+  expect(squiggle_7(origin)).toEqual(
+    'ԹՅՇԺȝԲԳɧɿʝƙʅʍՌԾρφՐՏԵՄעաՃՎՀԹՅՇԺȝԲԳɧɿʝƙʅʍՌԾρφՐՏԵՄעաՃՎՀ0123456789我爱你'
+  );
+});
+
+test('squiggle_8', () => {
+  expect(squiggle_8(origin)).toEqual(
+    'მჩეძპfცhἶქκlოῆõρგΓჰནυὗwჯყɀმჩეძპfცhἶქκlოῆõρგΓჰནυὗwჯყɀ0123456789我爱你'
+  );
+});
+
+test('squiggle_9', () => {
+  expect(squiggle_9(origin)).toEqual(
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZαႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ0123456789我爱你'
+  );
+});
+
+test('squiggle_10', () => {
+  expect(squiggle_10(origin)).toEqual(
+    'ᏗᏰፈᎴᏋᎦᎶᏂᎥᏠᏦᏝᎷᏁᎧᎮᎤᏒᏕᏖᏬᏉᏇጀᎩፚᏗᏰፈᎴᏋᎦᎶᏂᎥᏠᏦᏝᎷᏁᎧᎮᎤᏒᏕᏖᏬᏉᏇጀᎩፚ0123456789我爱你'
+  );
+});
+
+test('squiggle_11', () => {
+  expect(squiggle_11(origin)).toEqual(
+    'ค๖¢໓ēfງhiวkl๓ຖ໐p๑rŞtนงຟxฯຊค๖¢໓ēfງhiวkl๓ຖ໐p๑rŞtนงຟxฯຊ0123456789我爱你'
+  );
+});
+
+test('squiggle_12', () => {
+  expect(squiggle_12(origin)).toEqual(
+    'ĂβČĎĔŦĞĤĨĴĶĹМŃŐРQŔŚŤÚVŴЖŶŹĂβČĎĔŦĞĤĨĴĶĹМŃŐРQŔŚŤÚVŴЖŶŹ0123456789我爱你'
+  );
+});
+
+test('squiggle_13', () => {
+  expect(squiggle_13(origin)).toEqual(
+    'ƛƁƇƊЄƑƓӇƖʆƘԼMƝƠƤƢƦƧƬƲƔƜҲƳȤƛƁƇƊЄƑƓӇƖʆƘԼMƝƠƤƢƦƧƬƲƔƜҲƳȤ0123456789我爱你'
+  );
+});
+
+test('squiggle_14', () => {
+  expect(squiggle_14(origin)).toEqual(
+    'αɓ૮∂εƒɠɦเʝҡℓɱɳσρφ૨รƭµѵωאყƶαɓ૮∂εƒɠɦเʝҡℓɱɳσρφ૨รƭµѵωאყƶ0123456789我爱你'
+  );
+});
+
+test('squiggle_15', () => {
+  expect(squiggle_15(origin)).toEqual(
+    'άвςȡέғģħίјķĻмήόρqŕşţùνώxчžάвςȡέғģħίјķĻмήόρqŕşţùνώxчž0123456789我爱你'
+  );
+});
+
+test('squiggle_symbol', () => {
+  expect(squiggle_symbol(origin)).toEqual(
+    'ꋫꃃꏸꁕꍟꄘꁍꑛꂑꀭꀗ꒒ꁒꁹꆂꉣꁸ꒓ꌚ꓅ꐇꏝꅐꇓꐟꁴꋫꃃꏸꁕꍟꄘꁍꑛꂑꀭꀗ꒒ꁒꁹꆂꉣꁸ꒓ꌚ꓅ꐇꏝꅐꇓꐟꁴ0123456789我爱你'
+  );
+});
+
+test('squiggle_symbol_2', () => {
+  expect(squiggle_symbol_2(origin)).toEqual(
+    'ꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴ0123456789我爱你'
+  );
+});
+
+test('squiggle_symbol_3', () => {
+  expect(squiggle_symbol_3(origin)).toEqual(
+    'αßςdεƒghïյκﾚmη⊕pΩrš†u∀ωxψzαßςdεƒghïյκﾚmη⊕pΩrš†u∀ωxψz0123456789我爱你'
+  );
+});
+
+test('squiggle_symbol_4', () => {
+  expect(squiggle_symbol_4(origin)).toEqual(
+    'ΔβĆĐ€₣ǤĦƗĴҜŁΜŇØƤΩŘŞŦỮVŴЖ¥ŽΔβĆĐ€₣ǤĦƗĴҜŁΜŇØƤΩŘŞŦỮVŴЖ¥Ž0123456789我爱你'
+  );
+});
+
+test('squiggle_symbol_5', () => {
+  expect(squiggle_symbol_5(origin)).toEqual(
+    'ꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴ0123456789我爱你'
+  );
+});
+
+test('squiggle_symbol_6', () => {
+  expect(squiggle_symbol_6(origin)).toEqual(
+    'ꋬꃳꉔ꒯ꏂꊰꍌꁝ꒐꒻ꀘ꒒ꂵꋊꄲꉣꆰꋪꇙ꓄꒤꒦ꅐꉧꌦꁴꋬꃳꉔ꒯ꏂꊰꍌꁝ꒐꒻ꀘ꒒ꂵꋊꄲꉣꆰꋪꇙ꓄꒤꒦ꅐꉧꌦꁴ0123456789我爱你'
+  );
+});
+
+test('symbolic', () => {
+  expect(symbolic(origin)).toEqual(
+    '₳฿₵ĐɆ₣₲ⱧłJ₭Ⱡ₥₦Ø₱QⱤ₴₮ɄV₩ӾɎⱫ₳฿₵ĐɆ₣₲ⱧłJ₭Ⱡ₥₦Ø₱QⱤ₴₮ɄV₩ӾɎⱫ0123456789我爱你'
   );
 });

@@ -153,3 +153,47 @@ export const weird_box = (s: string) => lookUp('weird_box', s);
 export const thick_block = (s: string) => lookUp('thick_block', s);
 
 export const curly_brace = (s: string) => lookUp('curly_brace', s);
+
+export const squiggle = (s: string) => lookUp('squiggle', s);
+
+export const squiggle_2 = (s: string) => lookUp('squiggle_2', s);
+
+export const squiggle_3 = (s: string) => lookUp('squiggle_3', s);
+
+export const squiggle_4 = (s: string) => lookUp('squiggle_4', s);
+
+export const squiggle_5 = (s: string) => lookUp('squiggle_5', s);
+
+export const squiggle_6 = (s: string) => lookUp('squiggle_6', s);
+
+export const squiggle_7 = (s: string) => lookUp('squiggle_7', s);
+
+export const squiggle_8 = (s: string) => lookUp('squiggle_8', s);
+
+export const squiggle_9 = (s: string) => lookUp('squiggle_9', s);
+
+export const squiggle_10 = (s: string) => lookUp('squiggle_10', s);
+
+export const squiggle_11 = (s: string) => lookUp('squiggle_11', s);
+
+export const squiggle_12 = (s: string) => lookUp('squiggle_12', s);
+
+export const squiggle_13 = (s: string) => lookUp('squiggle_13', s);
+
+export const squiggle_14 = (s: string) => lookUp('squiggle_14', s);
+
+export const squiggle_15 = (s: string) => lookUp('squiggle_15', s);
+
+export const squiggle_symbol = (s: string) => lookUp('squiggle_symbol', s);
+
+export const squiggle_symbol_2 = (s: string) => lookUp('squiggle_symbol_2', s);
+
+export const squiggle_symbol_3 = (s: string) => lookUp('squiggle_symbol_3', s);
+
+export const squiggle_symbol_4 = (s: string) => lookUp('squiggle_symbol_4', s);
+
+export const squiggle_symbol_5 = (s: string) => lookUp('squiggle_symbol_5', s);
+
+export const squiggle_symbol_6 = (s: string) => lookUp('squiggle_symbol_6', s);
+
+export const symbolic = (s: string) => lookUp('symbolic', s);

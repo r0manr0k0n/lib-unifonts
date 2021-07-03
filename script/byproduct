@@ -389,3 +389,179 @@ test('dotty', () => {
   );
 });
 
+export const squiggle = (s: string) => lookUp('squiggle', s);
+  
+test('squiggle', () => {
+  expect(squiggle(origin)).toEqual(
+    'ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬאץչค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬאץչ0123456789我爱你'
+  );
+});
+
+export const squiggle_2 = (s: string) => lookUp('squiggle_2', s);
+  
+test('squiggle_2', () => {
+  expect(squiggle_2(origin)).toEqual(
+    'ǟɮƈɖɛʄɢɦɨʝӄʟʍռօքզʀֆȶʊʋաӼʏʐǟɮƈɖɛʄɢɦɨʝӄʟʍռօքզʀֆȶʊʋաӼʏʐ0123456789我爱你'
+  );
+});
+
+export const squiggle_3 = (s: string) => lookUp('squiggle_3', s);
+  
+test('squiggle_3', () => {
+  expect(squiggle_3(origin)).toEqual(
+    'ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ0123456789我爱你'
+  );
+});
+
+export const squiggle_4 = (s: string) => lookUp('squiggle_4', s);
+  
+test('squiggle_4', () => {
+  expect(squiggle_4(origin)).toEqual(
+    'ąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑąცƈɖɛʄɠɧıʝƙƖɱŋơ℘զཞʂɬų۷ῳҳყʑ0123456789我爱你'
+  );
+});
+
+export const squiggle_5 = (s: string) => lookUp('squiggle_5', s);
+  
+test('squiggle_5', () => {
+  expect(squiggle_5(origin)).toEqual(
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZαზƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ0123456789我爱你'
+  );
+});
+
+export const squiggle_6 = (s: string) => lookUp('squiggle_6', s);
+  
+test('squiggle_6', () => {
+  expect(squiggle_6(origin)).toEqual(
+    'ΛϦㄈÐƐFƓнɪﾌҚŁ௱ЛØþҨ尺らŤЦƔƜχϤẔΛϦㄈÐƐFƓнɪﾌҚŁ௱ЛØþҨ尺らŤЦƔƜχϤẔ0123456789我爱你'
+  );
+});
+
+export const squiggle_7 = (s: string) => lookUp('squiggle_7', s);
+  
+test('squiggle_7', () => {
+  expect(squiggle_7(origin)).toEqual(
+    'ԹՅՇԺȝԲԳɧɿʝƙʅʍՌԾρφՐՏԵՄעաՃՎՀԹՅՇԺȝԲԳɧɿʝƙʅʍՌԾρφՐՏԵՄעաՃՎՀ0123456789我爱你'
+  );
+});
+
+export const squiggle_8 = (s: string) => lookUp('squiggle_8', s);
+  
+test('squiggle_8', () => {
+  expect(squiggle_8(origin)).toEqual(
+    'მჩეძპfცhἶქκlოῆõρგΓჰནυὗwჯყɀმჩეძპfცhἶქκlოῆõρგΓჰནυὗwჯყɀ0123456789我爱你'
+  );
+});
+
+export const squiggle_9 = (s: string) => lookUp('squiggle_9', s);
+  
+test('squiggle_9', () => {
+  expect(squiggle_9(origin)).toEqual(
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZαႦƈԃҽϝɠԋιʝƙʅɱɳσρϙɾʂƚυʋɯxყȥ0123456789我爱你'
+  );
+});
+
+export const squiggle_10 = (s: string) => lookUp('squiggle_10', s);
+  
+test('squiggle_10', () => {
+  expect(squiggle_10(origin)).toEqual(
+    'ᏗᏰፈᎴᏋᎦᎶᏂᎥᏠᏦᏝᎷᏁᎧᎮᎤᏒᏕᏖᏬᏉᏇጀᎩፚᏗᏰፈᎴᏋᎦᎶᏂᎥᏠᏦᏝᎷᏁᎧᎮᎤᏒᏕᏖᏬᏉᏇጀᎩፚ0123456789我爱你'
+  );
+});
+
+export const squiggle_11 = (s: string) => lookUp('squiggle_11', s);
+  
+test('squiggle_11', () => {
+  expect(squiggle_11(origin)).toEqual(
+    'ค๖¢໓ēfງhiวkl๓ຖ໐p๑rŞtนงຟxฯຊค๖¢໓ēfງhiวkl๓ຖ໐p๑rŞtนงຟxฯຊ0123456789我爱你'
+  );
+});
+
+export const squiggle_12 = (s: string) => lookUp('squiggle_12', s);
+  
+test('squiggle_12', () => {
+  expect(squiggle_12(origin)).toEqual(
+    'ĂβČĎĔŦĞĤĨĴĶĹМŃŐРQŔŚŤÚVŴЖŶŹĂβČĎĔŦĞĤĨĴĶĹМŃŐРQŔŚŤÚVŴЖŶŹ0123456789我爱你'
+  );
+});
+
+export const squiggle_13 = (s: string) => lookUp('squiggle_13', s);
+  
+test('squiggle_13', () => {
+  expect(squiggle_13(origin)).toEqual(
+    'ƛƁƇƊЄƑƓӇƖʆƘԼMƝƠƤƢƦƧƬƲƔƜҲƳȤƛƁƇƊЄƑƓӇƖʆƘԼMƝƠƤƢƦƧƬƲƔƜҲƳȤ0123456789我爱你'
+  );
+});
+
+export const squiggle_14 = (s: string) => lookUp('squiggle_14', s);
+  
+test('squiggle_14', () => {
+  expect(squiggle_14(origin)).toEqual(
+    'αɓ૮∂εƒɠɦเʝҡℓɱɳσρφ૨รƭµѵωאყƶαɓ૮∂εƒɠɦเʝҡℓɱɳσρφ૨รƭµѵωאყƶ0123456789我爱你'
+  );
+});
+
+export const squiggle_15 = (s: string) => lookUp('squiggle_15', s);
+  
+test('squiggle_15', () => {
+  expect(squiggle_15(origin)).toEqual(
+    'άвςȡέғģħίјķĻмήόρqŕşţùνώxчžάвςȡέғģħίјķĻмήόρqŕşţùνώxчž0123456789我爱你'
+  );
+});
+
+export const squiggle_symbol = (s: string) => lookUp('squiggle_symbol', s);
+  
+test('squiggle_symbol', () => {
+  expect(squiggle_symbol(origin)).toEqual(
+    'ꋫꃃꏸꁕꍟꄘꁍꑛꂑꀭꀗ꒒ꁒꁹꆂꉣꁸ꒓ꌚ꓅ꐇꏝꅐꇓꐟꁴꋫꃃꏸꁕꍟꄘꁍꑛꂑꀭꀗ꒒ꁒꁹꆂꉣꁸ꒓ꌚ꓅ꐇꏝꅐꇓꐟꁴ0123456789我爱你'
+  );
+});
+
+export const squiggle_symbol_2 = (s: string) => lookUp('squiggle_symbol_2', s);
+  
+test('squiggle_symbol_2', () => {
+  expect(squiggle_symbol_2(origin)).toEqual(
+    'ꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴ0123456789我爱你'
+  );
+});
+
+export const squiggle_symbol_3 = (s: string) => lookUp('squiggle_symbol_3', s);
+  
+test('squiggle_symbol_3', () => {
+  expect(squiggle_symbol_3(origin)).toEqual(
+    'αßςdεƒghïյκﾚmη⊕pΩrš†u∀ωxψzαßςdεƒghïյκﾚmη⊕pΩrš†u∀ωxψz0123456789我爱你'
+  );
+});
+
+export const squiggle_symbol_4 = (s: string) => lookUp('squiggle_symbol_4', s);
+  
+test('squiggle_symbol_4', () => {
+  expect(squiggle_symbol_4(origin)).toEqual(
+    'ΔβĆĐ€₣ǤĦƗĴҜŁΜŇØƤΩŘŞŦỮVŴЖ¥ŽΔβĆĐ€₣ǤĦƗĴҜŁΜŇØƤΩŘŞŦỮVŴЖ¥Ž0123456789我爱你'
+  );
+});
+
+export const squiggle_symbol_5 = (s: string) => lookUp('squiggle_symbol_5', s);
+  
+test('squiggle_symbol_5', () => {
+  expect(squiggle_symbol_5(origin)).toEqual(
+    'ꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴꍏꌃꉓꀸꍟꎇꁅꃅꀤꀭꀘ꒒ꂵꈤꂦꉣꆰꋪꌗ꓄ꀎꃴꅏꊼꌩꁴ0123456789我爱你'
+  );
+});
+
+export const squiggle_symbol_6 = (s: string) => lookUp('squiggle_symbol_6', s);
+  
+test('squiggle_symbol_6', () => {
+  expect(squiggle_symbol_6(origin)).toEqual(
+    'ꋬꃳꉔ꒯ꏂꊰꍌꁝ꒐꒻ꀘ꒒ꂵꋊꄲꉣꆰꋪꇙ꓄꒤꒦ꅐꉧꌦꁴꋬꃳꉔ꒯ꏂꊰꍌꁝ꒐꒻ꀘ꒒ꂵꋊꄲꉣꆰꋪꇙ꓄꒤꒦ꅐꉧꌦꁴ0123456789我爱你'
+  );
+});
+
+export const symbolic = (s: string) => lookUp('symbolic', s);
+  
+test('symbolic', () => {
+  expect(symbolic(origin)).toEqual(
+    '₳฿₵ĐɆ₣₲ⱧłJ₭Ⱡ₥₦Ø₱QⱤ₴₮ɄV₩ӾɎⱫ₳฿₵ĐɆ₣₲ⱧłJ₭Ⱡ₥₦Ø₱QⱤ₴₮ɄV₩ӾɎⱫ0123456789我爱你'
+  );
+});
+

@@ -15,7 +15,7 @@ name: asian_script
 卂 乃 匚 ᗪ 乇 千 Ꮆ 卄 丨 ﾌ Ҝ ㄥ 爪 几 ㄖ 卩 Ɋ 尺 丂 ㄒ ㄩ ᐯ 山 乂 ㄚ 乙 卂 乃 匚 ᗪ 乇 千 Ꮆ 卄 丨 ﾌ Ҝ ㄥ 爪 几 ㄖ 卩 Ɋ 尺 丂 ㄒ ㄩ ᐯ 山 乂 ㄚ 乙 0 1 2 3 4 5 6 7 8 9
 ```
 
-Nothing else just exact two line. One line for name one line for characters. A optional extra line possible between them like above!
+Nothing else just exact two line. One line for name one line for characters. An extra line possible between them like above!
 
 - name must be variable friendly & snake cased not camel cased
 - Fonts characters must be separated by a space.
